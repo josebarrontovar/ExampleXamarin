@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.View.ApiPage">
+    <AbsoluteLayout >
+        <Image
+            AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+            AbsoluteLayout.LayoutFlags="All"
+            Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            Source="http://yesofcorsa.com/wp-content/uploads/2017/03/4K-Rain-Best-Wallpaper.jpg"
+            VerticalOptions="FillAndExpand" />
+
+        <ScrollView>
+
+            <StackLayout>
+                <Button Text="Obtain Data " Command="{Binding GetServiceCmd}" FontSize="Large" FontAttributes="Bold" BackgroundColor="#a5d6a7"></Button>
+                <ListView  ItemsSource="{Binding Items,Mode=TwoWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding title}" Detail="{Binding body}"></TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </StackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+</ContentPage>

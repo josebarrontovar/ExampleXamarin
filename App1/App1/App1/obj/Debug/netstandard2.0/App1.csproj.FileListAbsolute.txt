@@ -1,0 +1,15 @@
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojAssemblyReference.cache
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\View\ApiPage.xaml.g.cs
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\View\LoginPopupPage.xaml.g.cs
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\View\PersonPage.xaml.g.cs
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\jose.barron\Desktop\NeorisMobile\Example\FirstDay\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb

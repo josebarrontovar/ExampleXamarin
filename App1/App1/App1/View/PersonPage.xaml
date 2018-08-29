@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.View.PersonPage">
+    <AbsoluteLayout >
+        <Image
+            AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+            AbsoluteLayout.LayoutFlags="All"
+            Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            Source="https://newevolutiondesigns.com/images/freebies/4k-wallpaper-2.jpg"
+            VerticalOptions="FillAndExpand" />
+
+        <ScrollView>
+    
+        <StackLayout>
+            <Label Text="{Binding Id}"></Label>
+            <Label Text="Name" FontSize="Large" FontAttributes="Bold"  TextColor="Black"></Label>
+            <Entry Text="{Binding Name}"  Placeholder="add you'r name" TextColor="Black" ></Entry>
+            <Label Text="Last Name" FontSize="Large" FontAttributes="Bold"></Label>
+                <Entry Text="{Binding LastName}"  Placeholder="add you'r last name" TextColor="Black"></Entry>
+            <Label Text="Age " FontSize="Large" FontAttributes="Bold"></Label>
+                <Entry Text="{Binding Age}"  Keyboard="Numeric" Placeholder="add you'r age" TextColor="Black"></Entry>
+                <Label Text="{Binding FullName}" FontAttributes="Italic" FontSize="Large" TextColor="#027A86"></Label>
+                <Button Text="Save" Command="{Binding SaveCmd}" FontSize="Large" FontAttributes="Bold" BackgroundColor="#a5d6a7"></Button>
+                <Button Text="Update" Command="{Binding UpdateCmd}" FontSize="Large" FontAttributes="Bold" BackgroundColor="#a5d6a7"></Button>
+                <Button Text="Delete" Command="{Binding DeleteCmd}" FontSize="Large" FontAttributes="Bold" BackgroundColor="#a5d6a7"></Button>
+                <Button Text="Clear" Command="{Binding ClearCmd}" FontSize="Large" FontAttributes="Bold" BackgroundColor="#a5d6a7"></Button>
+                <Button Text="Weather API" Command="{Binding WeatherCmd}" FontSize="Large" FontAttributes="Bold" BackgroundColor="#a5d6a7"></Button>
+
+            <ActivityIndicator IsRunning="{Binding isLoading}" IsVisible="{Binding isLoading}"></ActivityIndicator>
+            <ListView x:Name="LvPersons" ItemsSource="{Binding ObsPersons}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Age}" Detail="{Binding FullName}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+           
+        </StackLayout>
+    </ScrollView>
+    </AbsoluteLayout>
+</ContentPage>
